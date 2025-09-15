@@ -147,18 +147,18 @@ update the main and script items of the package.json file in the server folder; 
 
 ## AstraDB Account: 
 ### If you don't already have a AstraDB  account
- #### 1) Create an account on AstraDB , at:
+ #### 1- Create an account on AstraDB , at:
  ##### [datastax](https://astra.datastax.com/signu)
 
 
 
- #### 2) In AstraDB DataStax, create a DataBase with the desired name, and within it create a Collection with the name CRUD, or whatever name you prefer
+ #### 2- In AstraDB DataStax, create a DataBase with the desired name, and within it create a Collection with the name CRUD, or whatever name you prefer
 
 
 
 ### Once you have a AstraDB DataStax account; access the index.js file from the server folder, and...
- #### 3.1) replace the term your-password in the variable yourPassw, with your MongoDB Atlas password
- #### 3.2) and replace the @cluster...majority term in yourConnectionString variable with your MongoDB Atlas connection string
+ #### 3.1- replace the term your-password in the variable yourPassw, with your MongoDB Atlas password
+ #### 3.2- and replace the @cluster...majority term in yourConnectionString variable with your MongoDB Atlas connection string
 
 ### save these changes
 
