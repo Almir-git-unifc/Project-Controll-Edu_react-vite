@@ -8,6 +8,12 @@ html, body {
     display: flex;
 }
 
+#link {
+         text-decoration: none;
+         color: reg(46,46,46);
+}
+
+
 /*---- Nav—*/
 nav {
          height: 100vh;
