@@ -1,4 +1,5 @@
-import TicketCard from "../components/TicketCard"
+import TicketCard from "../components/TicketCard";
+import blankAvatar from '../assets/images/blankAvatar.png';
 
 const Dashboard = () => { 
 
@@ -7,8 +8,8 @@ const Dashboard = () => {
          category: 'Q1 2022', 
          color: 'red',
          title: 'NFT Safety 101 Video',
-         owner: 'absi ss',
-         avatar: 'https:xxxxxx LINK Avatar',
+         owner: '',
+         avatar: blankAvatar,
          status: 'done',
          priority: 5,
          progress: 40,
@@ -19,8 +20,8 @@ const Dashboard = () => {
          category: 'Q1 2022', 
          color: 'red',
          title: 'Build a Sell AI Model',
-         owner: 'absi ss',
-         avatar: 'https:freepik LINK Avatar',
+         owner: '',
+         avatar: blankAvatar,
          status: 'working on it',
          priority: 2,
          progress: 70,
@@ -31,8 +32,8 @@ const Dashboard = () => {
          category: 'Q2 2022', 
          color: 'blue',
          title: 'Build a bot',
-         owner: 'abs 22',
-         avatar: 'https:xxxxxx LINK Avatar',
+         owner: '',
+         avatar: blankAvatar,
          status: 'working on it',
          priority: 3,
          progress: 10,
