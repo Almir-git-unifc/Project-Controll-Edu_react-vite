@@ -98,8 +98,21 @@ nav .icon{
     height: 100%;
 }
 
-/* Não está funcionando */
 .ticket-card .status-display {
     display: flex;
     justify-content: center;
+}
+
+.ticket-card .priority-display {
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-card .priority-display .star-container{
+    display: flex;
+}
+
+.ticket-card .priority-display .star-container h3{
+    margin: 7px;
+    padding: 0;
 }
