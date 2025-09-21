@@ -32,7 +32,7 @@ const TicketPage = () => {
     return (
         <div className="ticket">
             <h1>{editMode ? "Update your Ticket" : "Create a Ticket"}</h1>
-            <div>
+            <div className="ticket-container" >
                 <form onSubmit={handleSubmit}>
                     <section>
                         <label htmlFor="title" >Title</label>
@@ -63,8 +63,9 @@ const TicketPage = () => {
                         >
                             {categories?.map((category, _index) => (
                                 <option key={_index} value={category}>{category}</option>
-                            ))}
+                            ))}                            
                         </select>
+
                         <label htmlFor="new-category" >New Category</label>
                         <input
                             id="new-category"
@@ -73,6 +74,12 @@ const TicketPage = () => {
                             onChange={handleChange}
                             value={formData.category}
                         />
+
+
+
+
+
+
                         <label >Priority</label>
                         <div className="multiple-input-container" >
                             <input
@@ -146,7 +153,7 @@ const TicketPage = () => {
                                     onChange={handleChange}
                                 >
                                     <option selected=
-                                        {formData.status === 'done'} value='done'
+                                        {formData.status === 'done'} value  ='done'
                                     >
                                         Done
                                     </option>
@@ -199,7 +206,7 @@ const TicketPage = () => {
                                />
 
                                {/* show image avatar */}
-                               <div clasName="img-preview">
+                               <div className="img-preview">
                                    {/* show avatar image if avatar exists */}
                                    { formData.avatar &&  (
                                         <img src={formData.avatar} alt="image preview" />
