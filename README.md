@@ -64,6 +64,7 @@ These were the differences, in relation to the original project, previously deve
 - The data is storaged in DBaaS (DataBase as a Service)
 - JavaScript Full Stack
 - React Vite - Cross-platform
+- APIs RESTful
 - Context API, manages the global state of the app, passing data directly to the target component.
 - Cassandra-Token
 - Routes
